@@ -44,17 +44,17 @@ To run different experiments, just replace the two nested loops inside, then com
 This section describes the visual representations of the performance benchmarks used in our analysis. Each figure illustrates the behavior of the algorithm under different configurations and precision levels.
 
 #### 32-bit Precision Figures:
-![K-means Fixed K (32-bit)](figure/fig/test_kmeans_fp32_fixK.pdf)
+![K-means Fixed K (32-bit)](figure/fig/test_kmeans_fp32_fixK.png)
 *Figure: Benchmark results for K-means with fixed K using 32-bit precision.*
 
-![K-means Fixed N (32-bit)](figure/fig/test_kmeans_fp32_fixN.pdf)
+![K-means Fixed N (32-bit)](figure/fig/test_kmeans_fp32_fixN.png)
 *Figure: Benchmark results for K-means with fixed N using 32-bit precision.*
 
 #### 64-bit Precision Figures:
-![K-means Fixed K (64-bit)](figure/fig/test_kmeans_fp64_fixK.pdf)
+![K-means Fixed K (64-bit)](figure/fig/test_kmeans_fp64_fixK.png)
 *Figure: Benchmark results for K-means with fixed K using 64-bit precision.*
 
-![K-means Fixed N (64-bit)](figure/fig/test_kmeans_fp64_fixN.pdf)
+![K-means Fixed N (64-bit)](figure/fig/test_kmeans_fp64_fixN.png)
 *Figure: Benchmark results for K-means with fixed N using 64-bit precision.*
 
 ### Data Files Explanation
