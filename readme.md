@@ -7,10 +7,10 @@
 
 **Double version:**
 - Source code: `src/test_kmeans_tuner_double.cu`
-- Compile and run command: `make kmeansd ./kmeansd` (the naming is a bit strange)
+- Compile and run command: `make kmeansd ./kmeansd`
 
 **Explanation of the code:**
-Initially, based on previous test results, the first line in the main function of both codes defines a `bestnum` array. This array contains numbers indicating that the corresponding parameter number is the optimal parameter for at least one set of test data. The specific values of these parameters can be found in the previous `draft_results` file, or in `figure/parameters_float.csv` and `figure/parameters_double.csv` (starting from 1, where row i corresponds to parameter number i).
+Initially, based on previous test results, the first line in the main function of both codes defines a `bestnum` array. This array contains numbers indicating that the corresponding parameter number is the optimal parameter for at least one set of test data.
 
 In each set of data tests, it starts with a for-loop to test all parameters in `bestnum`, identifying the maximum Gflops and corresponding Elapsed, which are recorded in `double max_gflops_r=0.0, min_elapsed_r=0.0`; the corresponding parameter number is stored in `int max_num = 0`. Then, it tests the Raft parameters (corresponding to the 0th group of parameters) as well as two selected parameters, which specific numbers are commented in the code.
 
