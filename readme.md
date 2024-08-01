@@ -1,4 +1,4 @@
-# FT-KMeans
+# FT K-Means: A High-Performance K-Means on GPU with Fault Tolerance
 ### How to compile and run tests for float and double versions
 
 **Float version:**
